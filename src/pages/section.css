@@ -1,0 +1,91 @@
+
+.hero-container {
+    background: linear-gradient(90deg, rgba(232, 229, 229, 0.648) 0%, rgb(19, 14, 80) 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Hero Content Box */
+  .hero-content {
+    background: #fff;
+    padding: 40px;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+
+  
+  /* Headings */
+  h1 {
+    font-size: 2rem;
+    color: #1e3c72;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  h3 {
+    font-size: 1.3rem;
+    color: #1e3c72;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  /* Paragraphs */
+  .p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 16px;
+    font-family:Georgia;
+    color: #4a5568; /* Gray color */
+  margin-bottom: 1rem;
+    
+  }
+  
+  /* Highlight Text */
+  .highlight {
+    color: #2a5298;
+    font-weight: bold;
+  }
+  
+  /* List */
+  ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin: 15px 0;
+  }
+  
+  .li {
+    font-size: 1rem;
+    background: #f4f4f4;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+  }
+  
+  .li:hover {
+    background: #e0e0e0;
+  }
+  
+  /* Gas Information */
+  .gas-info {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #1e3c72;
+    margin-top: 15px;
+  }
+   

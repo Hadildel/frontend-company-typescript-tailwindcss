@@ -1,0 +1,75 @@
+@import "tailwindcss";
+.sign-up-container{
+    font-family: 'Rubik', sans-serif;
+    margin:0 ;
+    padding: 0;
+    height: 100vh;
+    background-attachment: scroll;
+    /* background-image: url("/src/images/dhaw.jpg"); */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center everything vertically */
+    background-image: url("/src/images/dhaw.jpg");
+  }
+  .field {
+    height: 46px;
+    padding: 0 16px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    font-family: 'Rubik', sans-serif;
+    outline: 0;
+    transition: 0.2s;
+    margin-top: 20px;
+  }
+  .container {
+    display: flex;
+    justify-content:center; /* Horizontally center the content */
+    width: 60%; /* Adjust width to make it smaller */
+    max-width: 800px; /* Limit the max width */
+    min-height: 600px; /* Set a minimum height */
+    background-color: rgba(255, 255, 255, 0.9); /* White background with some transparency */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for a modern look */
+    overflow: hidden;
+    position: relative;
+    align-items:center;
+  }
+  .form:focus {
+    border-color: #0f7ef1;
+  }
+  .anim {
+    animation-name: move;
+    animation-duration: 0.4s;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+  }
+  .btn {
+    animation-name: move;
+    animation-duration: 0.4s;
+    animation-fill-mode: both;
+    animation-delay: 0.5s;
+  } 
+  .b1 {
+    animation-delay: 0.5s;
+  }
+  
+  .b2 {
+    animation-delay: 0.6s;
+  }
+  
+  .b3 {
+    animation-delay: 0.7s;
+  }
+  
+  .b4 {
+    animation-delay: 0.8s;
+  }
+  
+  .b5 {
+    animation-delay: 0.9s;
+  }
+  
+  .btn {
+    animation-delay: 1s;
+  }

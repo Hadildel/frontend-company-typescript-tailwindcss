@@ -1,0 +1,71 @@
+:root {
+    --primary: #fff;
+  }
+  
+  .btn {
+    padding: 8px 20px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  .btn--outline {
+    background-color: transparent;
+    color: #0460a7; /* Change to your preferred text color */
+    border-color: #0460a7;
+    color: #fff; /* Change to your preferred border color */
+    border-width: 2px;
+    transition: all 0.3s ease-out;  
+    border-radius: 2px;
+    justify-content: center;
+    
+  }
+  
+  
+  .btn--primary {
+    background-color: var(--primary);
+    color: #242424;
+    border: 1px solid var(--primary);
+  }
+  
+  .btn--outline {
+    padding: 10px 20px;
+    border: 2px solid rgb(53, 42, 42);
+    background: transparent;
+    color: rgb(128, 128, 128);
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .btn--medium {
+    padding: 8px 20px;
+    font-size: 18px;
+  }
+  
+  .btn--large {
+    padding: 12px 26px;
+    font-size: 20px;
+  }
+  
+  .btn--large:hover,
+  .btn--medium:hover {
+    transition: all 0.3s ease-out;
+    background: #fff;
+    color: #242424;
+    transition: 250ms;
+  }
+  .btn--form {
+    padding: 12px 10px;
+    border: 0;
+    background: rgb(116, 116, 142);
+    /* border-radius: 3px; */
+    margin-top: 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: 'Rubik', sans-serif;
+    /* transition: transform 0.3s ease-in-out;  */
+    border-radius: 5px 5px 5px 5px;   
+  } 
+  .btn--form:hover {
+    transform: scale(1.1); 
+  }
